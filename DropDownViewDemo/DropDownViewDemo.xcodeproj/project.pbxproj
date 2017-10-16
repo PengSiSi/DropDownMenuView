@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F167F9B61F9491BC0098BC14 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F167F9B51F9491520098BC14 /* CustomButton.m */; };
+		F167FA021F9492E90098BC14 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F167FA011F9492E90098BC14 /* UIViewExt.m */; };
+		F167FA051F9497A30098BC14 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F167FA041F9497A30098BC14 /* UIButton+ImageTitleSpacing.m */; };
 		F19D8A111F90912300558A4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F19D8A101F90912300558A4E /* AppDelegate.m */; };
 		F19D8A141F90912300558A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19D8A131F90912300558A4E /* ViewController.m */; };
 		F19D8A171F90912300558A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19D8A151F90912300558A4E /* Main.storyboard */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F167F9B41F9491520098BC14 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		F167F9B51F9491520098BC14 /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		F167FA001F9492E90098BC14 /* UIViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F167FA011F9492E90098BC14 /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		F167FA031F9497A30098BC14 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		F167FA041F9497A30098BC14 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		F19D8A0C1F90912300558A4E /* DropDownViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19D8A0F1F90912300558A4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F19D8A101F90912300558A4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F167F9B31F9491520098BC14 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				F167FA001F9492E90098BC14 /* UIViewExt.h */,
+				F167FA011F9492E90098BC14 /* UIViewExt.m */,
+				F167F9B41F9491520098BC14 /* CustomButton.h */,
+				F167F9B51F9491520098BC14 /* CustomButton.m */,
+				F167FA031F9497A30098BC14 /* UIButton+ImageTitleSpacing.h */,
+				F167FA041F9497A30098BC14 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
 		F19D8A031F90912300558A4E = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +126,7 @@
 		F19D8A0E1F90912300558A4E /* DropDownViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F167F9B31F9491520098BC14 /* CustomButton */,
 				F19D8A441F90B26200558A4E /* DropDownMenuView */,
 				F19D8A0F1F90912300558A4E /* AppDelegate.h */,
 				F19D8A101F90912300558A4E /* AppDelegate.m */,
@@ -278,9 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F167FA051F9497A30098BC14 /* UIButton+ImageTitleSpacing.m in Sources */,
+				F167F9B61F9491BC0098BC14 /* CustomButton.m in Sources */,
 				F19D8A471F90B27100558A4E /* DropDownMenuView.m in Sources */,
 				F19D8A141F90912300558A4E /* ViewController.m in Sources */,
 				F19D8A1F1F90912300558A4E /* main.m in Sources */,
+				F167FA021F9492E90098BC14 /* UIViewExt.m in Sources */,
 				F19D8A111F90912300558A4E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
